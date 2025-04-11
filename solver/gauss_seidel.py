@@ -1,9 +1,6 @@
 import numpy as np
 import time
 from scipy.sparse import csr_matrix, tril
-from scipy.sparse.linalg import spsolve_triangular  # Se lo vuoi usare; altrimenti, la funzione lower_triangular_method
-
-
 from solver.lower_triangular import lower_triangular_method
 
 
