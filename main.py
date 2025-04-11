@@ -58,7 +58,8 @@ def main():
         risultati[tol]['Gradiente Coniugato'] = conjugate_gradient_method(A, b, x0, x_exact, tol, max_iter)
 
         print("- " * 46)
-        print(f"📊 \033[32mRISULTATI FINALI\033[0m 📊  | 🎲 \033[32mMATRICE --> [{path[-8:]}]\033[0m 🎲 |  ⚠️ \033[32mTOLLERANZA --> [{tol:.0e}]\033[0m ⚠️")
+        print(
+            f"📊 \033[32mRISULTATI FINALI\033[0m 📊  | 🎲 \033[32mMATRICE --> [{path[-8:]}]\033[0m 🎲 |  ⚠️ \033[32mTOLLERANZA --> [{tol:.0e}]\033[0m ⚠️")
         print("-" * 91)
         print("Metodo                  | 🌀Iterazioni | ⏱️Tempo (s) | 📉Errore Finale | 📏Errore Relativo")
         print("-" * 91)
