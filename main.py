@@ -7,7 +7,6 @@ from solver.gradiente import gradient_method
 from solver.gradiente_coniugato import conjugate_gradient_method
 from utils.checks import validate_matrix
 import matplotlib.pyplot as plt
-import time
 
 
 def main():

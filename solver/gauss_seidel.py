@@ -37,7 +37,7 @@ def gauss_seidel_method(A, b, x0, x_exact, tol, max_iter):
     if not isinstance(A, csr_matrix):
         A = csr_matrix(A)
 
-        # Usa la funzione 'tril' per estrarre la parte inferiore in formato sparse
+        # Usa la funzione 'tril' per estrarre la parte inferiore in formato sparso
     L = tril(A, format="csr")
     U = A - L  # Parte strettamente superiore
 
