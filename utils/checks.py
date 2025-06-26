@@ -50,7 +50,7 @@ def is_nonzero(A):
 
 def is_symmetric(A, tol=1e-10):
     """
-    Verifica che la matrice A sia simmetrica, ovvero A == A.T (trasposta).
+    Verifica che la matrice A sia simmetrica, ovvero A == A.T (trasposta --> scambia righe e colonne).
 
     Per evitare problemi di arrotondamento numerico, si usa np.allclose con una tolleranza.
 
